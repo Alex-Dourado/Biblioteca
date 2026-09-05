@@ -1,0 +1,77 @@
+{
+  "info": {
+    "_postman_id": "c4cb69a4-a90c-4e86-a26a-3539e85ee023",
+    "name": "New Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "49840320",
+    "_collection_link": "https://go.postman.co/collection/49840320-c4cb69a4-a90c-4e86-a26a-3539e85ee023?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Status da Url",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://simple-books-api.glitch.me/status",
+          "protocol": "https",
+          "host": [
+            "simple-books-api",
+            "glitch",
+            "me"
+          ],
+          "path": [
+            "status"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Pesquisa Livros",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://simple-books-api.glitch.me/books",
+          "protocol": "https",
+          "host": [
+            "simple-books-api",
+            "glitch",
+            "me"
+          ],
+          "path": [
+            "books"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Tema Especifico",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://simple-books-api.glitch.me/books?type=fiction",
+          "protocol": "https",
+          "host": [
+            "simple-books-api",
+            "glitch",
+            "me"
+          ],
+          "path": [
+            "books"
+          ],
+          "query": [
+            {
+              "key": "type",
+              "value": "fiction"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
